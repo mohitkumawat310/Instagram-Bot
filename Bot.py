@@ -11,7 +11,7 @@ def loginAndSeacrh():
     username = driver.find_element_by_css_selector("#loginForm > div > div:nth-child(1) > div > label > input")
     username.send_keys("mohitkumawat310")
     password = driver.find_element_by_css_selector("#loginForm > div > div:nth-child(2) > div > label > input")
-    password.send_keys("yhntgB90#")
+    password.send_keys("Enter Your Password")
 
     # hit enter to login
     password.send_keys(Keys.ENTER)
